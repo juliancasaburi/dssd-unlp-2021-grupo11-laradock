@@ -11,7 +11,23 @@ https://docs.docker.com/compose/install/
 
 ### Instalación 🔧
 
+_Configure /etc/hosts_  
+Agregue las siguientes 2 líneas en /etc/hosts
+
+```
+127.0.0.1 dssd-unlp-2021-grupo11-backend.test
+127.0.0.1 dssd-unlp-2021-grupo11-paises-estados-service.test
+```
+
 _Sigue las siguientes instrucciones para clonar el repositorio_
+
+_Configure /etc/hosts_  
+Agregue las siguientes 2 líneas en /etc/hosts
+
+```
+127.0.0.1  dssd-unlp-2021-grupo11-backend.test
+127.0.0.1 dssd-unlp-2021-grupo11-paises-estados-service.test
+```
 
 _Clone el repositorio_
 
@@ -35,7 +51,7 @@ La estructura del directorio quedará de la siguiente forma:
 
 ```
 .git
-.README.MD
+README.MD
 └── laradock
 └── dssd-unlp-2021-grupo11-paises-estados-service
 └── dssd-unlp-2021-grupo11-backend
