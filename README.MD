@@ -21,14 +21,6 @@ Agregue las siguientes 2 líneas en /etc/hosts
 
 _Sigue las siguientes instrucciones para clonar el repositorio_
 
-_Configure /etc/hosts_  
-Agregue las siguientes 2 líneas en /etc/hosts
-
-```
-127.0.0.1  dssd-unlp-2021-grupo11-backend.test
-127.0.0.1 dssd-unlp-2021-grupo11-paises-estados-service.test
-```
-
 _Clone el repositorio_
 
 ```
@@ -39,6 +31,12 @@ _Clone el repositorio del backend_
 
 ```
 git clone git@github.com:juliancasaburi/dssd-unlp-2021-grupo11-backend.git
+```
+
+_Clone el repositorio del servicio de estampillado_
+
+```
+git clone git@github.com:juliancasaburi/dssd-unlp-2021-grupo11-estampillado-service.git
 ```
 
 _Clone el repositorio del servicio de paises y estados_
@@ -53,6 +51,7 @@ La estructura del directorio quedará de la siguiente forma:
 .git
 README.MD
 └── laradock
+└── dssd-unlp-2021-grupo11-estampillado-service
 └── dssd-unlp-2021-grupo11-paises-estados-service
 └── dssd-unlp-2021-grupo11-backend
 ```
@@ -70,3 +69,10 @@ Por ejemplo, puede agregar redis y pgadmin
 cd ./laradock
 sudo docker-compose up -d nginx postgres redis pgadmin workspace
 ```
+
+| Servicio                                      	| Puerto 	|
+|-----------------------------------------------	|--------	|
+| dssd-unlp-2021-grupo11-backend                	| 80     	|
+| dssd-unlp-2021-grupo11-paises-estados-service 	| 81     	|
+| dssd-unlp-2021-grupo11-estampillado-service   	| 82     	|
+
