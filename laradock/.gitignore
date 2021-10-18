@@ -1,7 +1,6 @@
 .idea
 /logs
 /data
-.env
 /.project
 .docker-sync
 /jenkins/jenkins_home
@@ -25,3 +24,4 @@
 docker-compose.custom.yml
 
 .DS_Store
+/.vscode
