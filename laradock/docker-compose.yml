@@ -199,6 +199,7 @@ services:
         - backend
       links:
         - docker-in-docker
+      command: php /var/www/dssd-unlp-2021-grupo11-backend/artisan queue:listen --tries=3
 
 ### PHP-FPM ##############################################
     php-fpm:
