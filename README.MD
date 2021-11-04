@@ -56,11 +56,11 @@ La estructura del directorio quedará de la siguiente forma:
 ```
 .git
 README.MD
-└── laradock
+└── dssd-unlp-2021-grupo11-backend
+└── dssd-unlp-2021-grupo11-estampillado-service
 └── dssd-unlp-2021-grupo11-monitoreo-service
 └── dssd-unlp-2021-grupo11-paises-estados-service
-└── dssd-unlp-2021-grupo11-estampillado-service
-└── dssd-unlp-2021-grupo11-backend
+└── laradock
 ```
 
 ## Iniciar el servidor 🖥️ 🆙
