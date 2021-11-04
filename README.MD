@@ -45,14 +45,21 @@ _Clone el repositorio del servicio de paises y estados_
 git clone git@github.com:juliancasaburi/dssd-unlp-2021-grupo11-paises-estados-service.git
 ```
 
+_Clone el repositorio del servicio de monitoreo_
+
+```
+git clone git@github.com:juliancasaburi/dssd-unlp-2021-grupo11-monitoreo-service.git
+```
+
 La estructura del directorio quedará de la siguiente forma:
 
 ```
 .git
 README.MD
 └── laradock
-└── dssd-unlp-2021-grupo11-estampillado-service
+└── dssd-unlp-2021-grupo11-monitoreo-service
 └── dssd-unlp-2021-grupo11-paises-estados-service
+└── dssd-unlp-2021-grupo11-estampillado-service
 └── dssd-unlp-2021-grupo11-backend
 ```
 
@@ -75,4 +82,5 @@ sudo docker-compose up -d nginx postgres redis pgadmin workspace
 | dssd-unlp-2021-grupo11-backend                	| 80     	|
 | dssd-unlp-2021-grupo11-paises-estados-service 	| 81     	|
 | dssd-unlp-2021-grupo11-estampillado-service   	| 82     	|
+| dssd-unlp-2021-grupo11-monitoreo-service   	    | 83    	|
 
