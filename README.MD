@@ -74,14 +74,14 @@ Luego de obtener la anterior estructura del directorio al clonar los repositorio
 ## Iniciar el servidor 🖥️ 🆙
 Puede indicar los contenedores a iniciar. Como mínimo deberá iniciar nginx y postgres.
 ```
-cd ./laradock
+cd ./dssd-unlp-2021-grupo11-laradock/laradock
 sudo docker-compose up -d nginx postgres
 ```
 
 Por ejemplo, puede agregar pgadmin
 
 ```
-cd ./laradock
+cd ./dssd-unlp-2021-grupo11-laradock/laradock
 sudo docker-compose up -d nginx postgres pgadmin workspace
 ```
 
