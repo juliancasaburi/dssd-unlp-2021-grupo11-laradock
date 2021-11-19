@@ -71,7 +71,7 @@ README.MD
 ### Instalación y configuración de los servicios
 Luego de obtener la anterior estructura del directorio al clonar los repositorios, siga la guía de instalación de cada servicio. La misma se encuentra en el archivo ```README.MD``` de cada uno de los servicios.
 
-## Iniciar el servidor 🖥️ 🆙
+## Iniciar los servicios 🆙 🖥️ 
 Puede indicar los contenedores a iniciar. Como mínimo deberá iniciar nginx y postgres.
 ```
 cd ./dssd-unlp-2021-grupo11-laradock/laradock
@@ -92,3 +92,14 @@ sudo docker-compose up -d nginx postgres pgadmin workspace
 | dssd-unlp-2021-grupo11-estampillado-service   	| 82     	|
 | dssd-unlp-2021-grupo11-monitoreo-service   	    | 83    	|
 
+## Detener los servicios ⬇️ 🖥️
+```
+cd ./dssd-unlp-2021-grupo11-laradock/laradock
+sudo docker-compose down
+```
+
+## Listar los contenedores
+```
+cd ./dssd-unlp-2021-grupo11-laradock/laradock
+sudo docker-compose ps
+```
