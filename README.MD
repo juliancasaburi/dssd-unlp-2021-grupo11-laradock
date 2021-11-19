@@ -9,7 +9,7 @@ _Sigue las siguientes instrucciones para clonar este repositorio en tu máquina 
 docker-compose
 https://docs.docker.com/compose/install/
 
-### Instalación 🔧
+## Instalación 🔧
 
 _Configure /etc/hosts_  
 Agregue las siguientes 2 líneas en /etc/hosts
@@ -25,6 +25,11 @@ _Clone el repositorio_
 
 ```
 git clone git@github.com:juliancasaburi/dssd-unlp-2021-grupo11-laradock.git
+```
+
+_Posicionese sobre el directorio_
+```
+cd ./dssd-unlp-2021-grupo11-laradock
 ```
 
 _Clone el repositorio del backend_
@@ -63,18 +68,21 @@ README.MD
 └── laradock
 ```
 
+### Instalación y configuración de los servicios
+Luego de obtener la anterior estructura del directorio al clonar los repositorios, siga la guía de instalación de cada servicio. La misma se encuentra en el archivo ```README.MD``` de cada uno de los servicios.
+
 ## Iniciar el servidor 🖥️ 🆙
-Puede indicar los contenedores a iniciar. Como mínimo deberá iniciar nginx, postgres y workspace
+Puede indicar los contenedores a iniciar. Como mínimo deberá iniciar nginx y postgres.
 ```
 cd ./laradock
-sudo docker-compose up -d nginx postgres workspace
+sudo docker-compose up -d nginx postgres
 ```
 
-Por ejemplo, puede agregar redis y pgadmin
+Por ejemplo, puede agregar pgadmin
 
 ```
 cd ./laradock
-sudo docker-compose up -d nginx postgres redis pgadmin workspace
+sudo docker-compose up -d nginx postgres pgadmin workspace
 ```
 
 | Servicio                                      	| Puerto 	|
